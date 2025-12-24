@@ -268,7 +268,6 @@ In short the reason I use this structure is that each method has a single respon
 - **Error Handling**: Try-catch blocks - localStorage and JSON parsing errors are caught preventing application crashes.
 - **Event Cleanup**: Memory leak prevention with `{ once: true }` - Event listeners are single-use and automatically cleaned up.
 - **Modern API**: `addEventListener` (instead of onclick) - Multiple listeners can be added a more flexible and modern approach.
-- **Semantic HTML**: Use of `<button>`, `<h2>`, `<p>` - Meaningful HTML elements are preferred for SEO and accessibility. 
 - **Accessibility**: `aria-label` attributes - Provide descriptive text for screen readers.
 
 ## TamperMonkey Setup
